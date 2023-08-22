@@ -1,0 +1,47 @@
+/* body{
+    position: absolute;
+    width: 1208px;
+    height: 792px;
+    left: 116px;
+    top:225px;
+  } */
+  
+  .navbar-brand::before {
+
+    content: "";
+    display: block;
+    width: 15%;
+    height: 6px; /* Adjust the line height as needed */ /* Line color */
+    margin: 0 auto;
+    margin-bottom: 8px;
+    margin-left: 0; /* Adjust the margin as needed */
+    border-radius: 1rem;
+    background-color: rgba(220, 29, 176, 0.975);
+    margin-bottom: 0;
+  }
+  
+  .accordion-item {
+    background-color: transparent;
+  }
+
+  .accordion-button::before {
+    height: 1.5rem;
+    flex-shrink: 0;
+    margin-left: 0;
+   
+    content: "";
+    background-repeat: no-repeat;
+
+  }
+
+  .corousel-item.img{
+    object-fit: cover;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+  }
+  
